@@ -75,7 +75,7 @@ func main() {
 
 		timesPassedZero += n + float64(i)
 
-		fmt.Println(line, start, "->", dialPos, ":", n, "+", i, "->", timesPassedZero)
+		fmt.Println(line, start, "->", dialPos, ":", n, "+", i, "+->", timesPassedZero)
 	}
 
 	fmt.Println("Answer: ", timesPassedZero)
